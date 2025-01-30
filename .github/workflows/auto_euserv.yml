@@ -24,11 +24,11 @@ jobs:
 
     - name: Run script
       env:
-        EUSERV_USERNAME: ${{ secrets.chongshang394929824@gmail.com }}
-        EUSERV_PASSWORD: ${{ secrets.12345678o }}
+        EUSERV_USERNAME: ${{ secrets.EUSERV_USERNAME }}
+        EUSERV_PASSWORD: ${{ secrets.EUSERV_PASSWORD }}
         TRUECAPTCHA_USERID: ${{ secrets.TRUECAPTCHA_USERID }}
         TRUECAPTCHA_APIKEY: ${{ secrets.TRUECAPTCHA_APIKEY }}
         TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
         TG_USER_ID: ${{ secrets.TG_USER_ID }}
-        MAILPARSER_DOWNLOAD_URL_ID: ${{ secrets.yoxsebdq }}
+        MAILPARSER_DOWNLOAD_URL_ID: ${{ secrets.MAILPARSER_DOWNLOAD_URL_ID }}
       run: python Github_Action.py
