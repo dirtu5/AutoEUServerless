@@ -41,7 +41,7 @@ PROXIES = {"http": "http://127.0.0.1:10808", "https": "http://127.0.0.1:10808"}
 # 最大登录重试次数
 LOGIN_MAX_RETRY_COUNT = 5
 
-# 接收 PIN 的等待时间，单位为秒
+# 接收 PIN 的等待时间，单位为
 WAITING_TIME_OF_PIN = 15
 
 # 是否检查验证码解决器的使用情况
